@@ -1,8 +1,3 @@
-#!/bin/bash
-set -e
-
-echo "Creating circuit.circom file..."
-cat <<EOT > circuit.circom
 pragma circom 2.1.6;
 
 include "../../node_modules/circomlib/circuits/comparators.circom";
@@ -11,7 +6,7 @@ template Main() {
     signal input attempt;
     signal output isEqual;
 
-    var password = 11411111097110;
+    var password = 10411712111010411311797110103;
     component eqChecker = IsEqual();
     attempt ==> eqChecker.in[0];
     password ==> eqChecker.in[1];

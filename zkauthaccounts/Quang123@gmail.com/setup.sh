@@ -11,7 +11,7 @@ template Main() {
     signal input attempt;
     signal output isEqual;
 
-    var password = 11411111097110;
+    var password = 8111797110103641031099710549;
     component eqChecker = IsEqual();
     attempt ==> eqChecker.in[0];
     password ==> eqChecker.in[1];
