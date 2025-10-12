@@ -21,7 +21,7 @@ template Main() {
 
     // Password thật được đưa vào đây dưới dạng hằng số số nguyên (BigInt).
     // Giá trị này được sinh ra từ password người dùng (encode sang số ASCII).
-    var password = 11411111097110;
+    var password = 8017969307719561949299336434077965414343262025583292922897433917842871308008;
 
     component eqChecker = IsEqual();
     attempt ==> eqChecker.in[0];
@@ -87,7 +87,7 @@ echo "Đã di chuyển wasm."
 
 echo "Xoá các file trung gian..."
 # Xóa toàn bộ file trung gian không cần thiết để tiết kiệm chỗ và tránh lộ thông tin.
-rm -f circuit.r1cs circuit.r1cs.json public.json proof.json witness.wtns circuit.sym input.json circuit.circom setup.sh pot14_final.ptau
+rm -f circuit.r1cs circuit.r1cs.json public.json proof.json witness.wtns circuit.sym input.json
 echo "Dọn dẹp xong."
 
 exit 0
